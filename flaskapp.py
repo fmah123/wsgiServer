@@ -17,7 +17,8 @@ def about():
 def anotherPage():
     return render_template("anotherPage.html")    
 
-app =wsgi.app
+#Line 21: This will initialise my flask application for the customer server.
+app = wsgi.app
     
      
     
