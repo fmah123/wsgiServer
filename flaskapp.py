@@ -17,8 +17,7 @@ def about():
 def anotherPage():
     return render_template("anotherPage.html")    
 
-if __name__ == "__main__":
-    app =wsgi.
-    app.run(debug=True)
+app =wsgi.app
+    
      
     
